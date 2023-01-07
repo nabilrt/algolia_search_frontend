@@ -18,7 +18,7 @@ const searchClient = algoliasearch(
 function Search() {
     // 
   return (
-    <InstantSearch searchClient={searchClient} indexName="movies"> (// Change the index name to products to check other one)
+    <InstantSearch searchClient={searchClient} indexName="movies"> 
       <Header />
       <div className="body-content">
         <Content />
